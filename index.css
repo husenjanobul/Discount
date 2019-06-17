@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  body {
+    background: #C3C3C3; 
+  }
+  /* Left site */
+  .left-site{
+    width:200px;
+    background:#000E1F;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    box-shadow:0 0 15px black;
+  }
+  ul{
+    font-family: 'Oswald', sans-serif;
+    list-style:none;
+    margin-top:200px;
+  }
+  ul li a{
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:15px 0 10px 30px;
+    display:block;
+    font-size:22px;
+  }
+  ul li a:hover{
+    background:#FFFFFF;
+    color:#000E1F;
+    padding:15px 0 10px 50px;
+    font-size:25px;
+  }
+  
+  /*  Right site */
+  .right-site{
+    margin-left:250px;
+    text-align:center;
+  }
+  #title{
+    margin-top:80px;
+  }
+  h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight:500;
+    font-size:48px;
+    font-style:bold;
+  }
+  
+  /* Welkome  */
+  .info{
+    margin:80px 25%;
+    width:50%;
+    font-family: 'Crimson Text', serif;
+  }
+  .welkome{
+    font-size:28px;
+    margin-bottom:20px;
+    width:30%;
+    border:1px solid gray;
+    margin:20px 35%;
+  }
+  .for-visitor{
+    font-size:22px;
+  }
+  
+  /* Table */
+  table{
+    width:50%;
+    margin:60px 25% 50px 25%;
+    border-collapse:collapse;
+    font-family:'Crimson Text', serif;
+  }
+  th{
+    font-size:22px;
+    text-align:left;
+  }
+  tbody tr,td{
+    border:2px solid #525252;
+    font-size:20px;
+  }
+  tbody td{
+    padding:5px;
+    width:20%;
+  }
+  .row{
+    background-color:gray;
+  }
+  hr{
+    background:#525252;
+    opacity:0.7;
+    margin:100px 0;
+    width:98%;
+    margin:10px 0;
+  }
+  
+  /* Spacial Electronic Furniture Other */
+  .title{
+    font-family: 'Oswald', sans-serif;
+    font-size:32px;
+    float:left;
+    margin-bottom:50px;
+    text-decoration:underline;
+  }
+  .more{
+    float:right;
+    font-family: 'Oswald', sans-serif;
+    margin-right:2%;
+  }
+  .more-href{
+    font-size:22px;
+    color:gray;
+  }
+  .more-href:hover{
+    color:white;
+  }
+  .box{
+    width:100%;
+    background:red;
+    clear:both;
+  }
+  .list{
+    width:20%;
+    border-radius:16px;
+    background:#EDEDED;
+    float:left;
+    margin-right:19%;
+    margin-bottom:50px;
+  }
+  .list:last-child{
+    margin-right:0;
+  }
+  .pic img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background:white;
+    margin-top:20px; 
+  }
+  .price{
+    font-family: 'Oswald', sans-serif;
+    font-size:18px;
+  }
+  .price a{
+    font-size:22px;
+    color:red;
+    padding:10px;
+  }
+  ins{
+    color:red;
+  }
+  
+  /* Footer */
+  footer{
+    height:70px;
+    background:#000E1F;
+    margin-left:199px;
+    position:relative;
+    z-index:2;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+  }
+  #contact p{
+    padding:20px;
+    color:gray;
+  }
+  span{
+    margin:0 80px;
+  }
+  span a{
+    text-decoration:none;
+    color:gray;
+  }
+  span a:hover{
+    text-decoration:underline;
+    color:#ffffff;
+  }
